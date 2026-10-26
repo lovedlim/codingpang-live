@@ -1,11 +1,11 @@
 {
- "asOf": "2026-10-27 04:50",
+ "asOf": "2026-10-27 05:00",
  "round": 13,
  "intervalMin": 10,
- "totals": {"venues":83,"closed":43,"seats":5699,"applied":4395,"remaining":1304},
+ "totals": {"venues":83,"closed":43,"seats":5699,"applied":4396,"remaining":1303},
  "venues": [
   {"id":51328,"name":"서일대학교 배양관","region":"seoul","seats":640,"applied":148,"remaining":492,"closed":false,"lat":37.58566205062344,"lng":127.09707403295494},
-  {"id":51350,"name":"비젼직업전문학교","region":"daejeon","seats":69,"applied":45,"remaining":24,"closed":false,"lat":36.3292880842151,"lng":127.423960149879},
+  {"id":51350,"name":"비젼직업전문학교","region":"daejeon","seats":69,"applied":46,"remaining":23,"closed":false,"lat":36.3292880842151,"lng":127.423960149879},
   {"id":51351,"name":"광주여자상업고등학교","region":"gwangju","seats":55,"applied":41,"remaining":14,"closed":false,"lat":35.1153621264237,"lng":126.893451593707},
   {"id":51358,"name":"새동아직업전문학교","region":"busan","seats":60,"applied":59,"remaining":1,"closed":false,"lat":35.105081462693974,"lng":128.96556342868288},
   {"id":51426,"name":"광운인공지능고등학교","region":"seoul","seats":76,"applied":76,"remaining":0,"closed":true,"lat":37.62023247648891,"lng":127.05636389144493},
