@@ -1,8 +1,8 @@
 {
- "asOf": "2026-10-27 06:30",
+ "asOf": "2026-10-27 06:40",
  "round": 13,
  "intervalMin": 10,
- "totals": {"venues":83,"closed":43,"seats":5699,"applied":4402,"remaining":1297},
+ "totals": {"venues":83,"closed":43,"seats":5699,"applied":4404,"remaining":1295},
  "venues": [
   {"id":51328,"name":"서일대학교 배양관","region":"seoul","seats":640,"applied":149,"remaining":491,"closed":false,"lat":37.58566205062344,"lng":127.09707403295494},
   {"id":51350,"name":"비젼직업전문학교","region":"daejeon","seats":69,"applied":46,"remaining":23,"closed":false,"lat":36.3292880842151,"lng":127.423960149879},
@@ -18,7 +18,7 @@
   {"id":51547,"name":"그린컴퓨터아카데미 인천부평점","region":"incheon","seats":60,"applied":60,"remaining":0,"closed":true,"lat":37.4931553365542,"lng":126.722488415034},
   {"id":51600,"name":"한성대학교 탐구관","region":"seoul","seats":104,"applied":104,"remaining":0,"closed":true,"lat":37.5835482349942,"lng":127.0091931298838},
   {"id":51601,"name":"성공회대학교 이천환기념관","region":"seoul","seats":110,"applied":110,"remaining":0,"closed":true,"lat":37.48712226746624,"lng":126.82651645214192},
-  {"id":51672,"name":"연세IT미래교육원","region":"gyeonggi","seats":60,"applied":39,"remaining":21,"closed":false,"lat":37.2915691150775,"lng":127.012558271288},
+  {"id":51672,"name":"연세IT미래교육원","region":"gyeonggi","seats":60,"applied":40,"remaining":20,"closed":false,"lat":37.2915691150775,"lng":127.012558271288},
   {"id":51738,"name":"다산직업전문학교","region":"incheon","seats":111,"applied":69,"remaining":42,"closed":false,"lat":37.4636607705384,"lng":126.681732679136},
   {"id":51741,"name":"그린컴퓨터아트학원 대구캠퍼스","region":"daegu","seats":106,"applied":104,"remaining":2,"closed":false,"lat":35.8683261440927,"lng":128.593973022676},
   {"id":51742,"name":"그린컴퓨터아카데미 부산서면점","region":"busan","seats":78,"applied":78,"remaining":0,"closed":true,"lat":35.1541849760259,"lng":129.059493066745},
@@ -49,7 +49,7 @@
   {"id":51868,"name":"상지대학교 동악관","region":"gangwon","seats":42,"applied":27,"remaining":15,"closed":false,"lat":37.36970535593872,"lng":127.9264631305174},
   {"id":51910,"name":"진영고등학교","region":"gyeonggi","seats":43,"applied":9,"remaining":34,"closed":false,"lat":37.4721714408955,"lng":126.79026536061},
   {"id":51911,"name":"안산그린컴퓨터아카데미","region":"gyeonggi","seats":56,"applied":39,"remaining":17,"closed":false,"lat":37.3171587889718,"lng":126.838995285692},
-  {"id":51915,"name":"명문직업전문학교","region":"incheon","seats":62,"applied":39,"remaining":23,"closed":false,"lat":37.5438634411904,"lng":126.723707084203},
+  {"id":51915,"name":"명문직업전문학교","region":"incheon","seats":62,"applied":40,"remaining":22,"closed":false,"lat":37.5438634411904,"lng":126.723707084203},
   {"id":51917,"name":"금정직업전문학교","region":"busan","seats":70,"applied":70,"remaining":0,"closed":true,"lat":35.2576219071707,"lng":129.091690015601},
   {"id":51922,"name":"덕수컴퓨터회계학원","region":"seoul","seats":52,"applied":52,"remaining":0,"closed":true,"lat":37.5770680681003,"lng":127.057496456523},
   {"id":51927,"name":"경기상업고등학교","region":"seoul","seats":95,"applied":95,"remaining":0,"closed":true,"lat":37.58874346841538,"lng":126.96983719227075},
