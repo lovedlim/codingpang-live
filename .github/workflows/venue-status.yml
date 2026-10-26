@@ -1,41 +1,36 @@
 # 13회 빅분기 실기 고사장 접수 현황(마감 / 잔여 좌석)을 가져와 venue-status.json 으로 이 저장소 main에 커밋한다.
 # - GitHub 클라우드에서 돈다(사장님 컴퓨터가 꺼져 있어도 됨). 코딩팡은 재배포하지 않고 화면이 이 파일을 바로 읽는다.
-# - 일정(한국 시간): 10/26 10:00~19:00, 10/27~10/30 10:00~18:00, 10분마다. 10/30 18:30 이후로는 아무것도 하지 않는다.
-#   cron은 UTC라 매일 10:00~19:50에 깨우고, 아래 '일정 확인' 단계가 범위 밖이면 건너뛴다.
+# - 한 번 실행이 약 5시간 40분 동안 10분마다(:00 :10 …) 갱신하고, 끝나기 전에 다음 실행을 띄워 이어 간다.
+#   (예약 실행이 새 저장소에서 제때 안 깨어나서 10/26에 이 방식으로 바꿈) 매시 3분 예약은 끊겼을 때 다시 잇는 예비.
+# - 접수 마감(10/30 18:00) 직후 10/30 18:05에 멈춘다.
 name: 고사장 접수 현황
 
 on:
   schedule:
-    - cron: "*/10 1-10 * * *"
+    - cron: "3 * * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
-
-# 두 번이 겹쳐 돌면 푸시가 엉키니 한 번에 하나만
-concurrency:
-  group: venue-status
-  cancel-in-progress: false
+  actions: write
 
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 355
+    env:
+      TZ: Asia/Seoul
+      GH_TOKEN: ${{ github.token }}
+      DEADLINE: "2026-10-30 18:05"
     steps:
-      - name: 일정 확인 (범위 밖이면 건너뜀, 손으로 돌릴 때는 마감 전이면 언제든)
+      - name: 일정 확인 (마감 지났거나, 예약 실행인데 이미 도는 게 있으면 건너뜀)
         id: guard
-        env:
-          EVENT: ${{ github.event_name }}
         run: |
-          day=$(TZ=Asia/Seoul date +%Y%m%d)
-          hm=$(TZ=Asia/Seoul date +%H%M)
           run=true
-          if [ "$day$hm" -gt "202610301830" ]; then
-            run=false; echo "접수 기간이 끝났어요"
-          elif [ "$EVENT" = "schedule" ]; then
-            # 10/26은 19:00까지, 10/27부터는 18:00까지 (10:00 이전은 cron이 깨우지 않음)
-            if [ "$day" -le "20261026" ]; then last=1900; else last=1800; fi
-            if [ "$hm" -gt "$last" ]; then run=false; echo "오늘 갱신 시간이 지났어요"; fi
+          if [[ "$(date '+%Y-%m-%d %H:%M')" > "$DEADLINE" ]]; then run=false; echo "접수 기간이 끝났어요"; fi
+          if [ "$run" = true ] && [ "${{ github.event_name }}" = "schedule" ]; then
+            busy=$(gh run list -R "${{ github.repository }}" -w venue-status.yml -s in_progress --json databaseId -q "[.[] | select(.databaseId != ${{ github.run_id }})] | length")
+            if [ "$busy" != "0" ]; then run=false; echo "이미 갱신 중"; fi
           fi
           echo "run=$run" >> "$GITHUB_OUTPUT"
 
@@ -47,25 +42,28 @@ jobs:
         with:
           node-version: 24
 
-      - name: 접수 현황 가져오기
-        if: steps.guard.outputs.run == 'true'
-        run: node venue-status.mjs
-
-      - name: main에 커밋 (venue-status.json 만)
+      - name: 10분마다 갱신 (끝나기 전에 다음 실행 띄우기)
         if: steps.guard.outputs.run == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add venue-status.json
-          if git diff --cached --quiet; then
-            echo "바뀐 것 없음"
-            exit 0
-          fi
-          hm=$(TZ=Asia/Seoul date +%H:%M)
-          git commit -m "고사장 접수 현황 ${hm} 갱신" -- venue-status.json
-          for i in 1 2 3; do
-            git push origin HEAD:main && exit 0
-            echo "푸시 실패 — main을 다시 받아 한 번 더 ($i)"
-            git pull --rebase origin main
+          DL=$(date -d "$DEADLINE" +%s)
+          END=$(( $(date +%s) + 340*60 )); [ $END -gt $DL ] && END=$DL
+          handed=0
+          while [ $(date +%s) -lt $END ]; do
+            git pull -q --rebase origin main || true
+            if node venue-status.mjs; then
+              git add venue-status.json
+              if ! git diff --cached --quiet; then
+                git commit -qm "고사장 접수 현황 $(date +%H:%M) 갱신" -- venue-status.json
+                for i in 1 2 3; do git push -q origin HEAD:main && break; git pull -q --rebase origin main; done
+              fi
+            fi
+            # 끝나기 15분 전, 마감 전이면 다음 실행을 띄운다 (몇 분 겹쳐도 같은 파일이라 괜찮다)
+            if [ $handed = 0 ] && [ $(( END - $(date +%s) )) -lt 900 ] && [ $END -lt $DL ]; then
+              gh workflow run venue-status.yml -R "${{ github.repository }}" && handed=1 && echo "다음 실행 띄움"
+            fi
+            now=$(date +%s); next=$(( (now / 600 + 1) * 600 ))
+            [ $next -gt $END ] && break
+            sleep $(( next - now ))
           done
-          exit 1
