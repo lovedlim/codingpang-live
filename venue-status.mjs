@@ -114,9 +114,36 @@ function toJson(s) {
   return `{\n ${head},\n "venues": [\n${s.venues.map((v) => `  ${JSON.stringify(v)}`).join(",\n")}\n ]\n}\n`;
 }
 
+/** 지난 파일의 전체 접수 수 (없으면 null) */
+function previousApplied() {
+  try {
+    return JSON.parse(fs.readFileSync(OUT, "utf8")).totals.applied;
+  } catch {
+    return null;
+  }
+}
+
+/** 접수 수가 지난번보다 크게 줄면 원본 쪽 일시적인 값으로 보고 잠시 뒤 다시 받는다 (접수는 거의 줄지 않는다) */
+const DROP_RATIO = 0.95;
+async function fetchStable() {
+  const prev = previousApplied();
+  for (let i = 0; i < 3; i++) {
+    const list = parseVenueList(await download());
+    if (list.length < MIN_VENUES) throw new Error(`고사장이 ${list.length}곳뿐이에요`);
+    const applied = list.reduce((a, v) => a + v.aplycnt, 0);
+    if (prev === null || applied >= prev * DROP_RATIO) return list;
+    console.warn(`접수 수가 ${prev} → ${applied}로 크게 줄어 30초 뒤 다시 받아요`);
+    await new Promise((r) => setTimeout(r, 30_000));
+  }
+  return null;
+}
+
 try {
-  const list = parseVenueList(await download());
-  if (list.length < MIN_VENUES) throw new Error(`고사장이 ${list.length}곳뿐이에요`);
+  const list = await fetchStable();
+  if (!list) {
+    console.warn("값이 계속 낮아 이번 갱신은 건너뛰어요(기존 파일 그대로)");
+    process.exit(0);
+  }
   const status = buildVenueStatus(list, new Date(), ROUND);
   const tmp = `${OUT}.tmp`;
   fs.writeFileSync(tmp, toJson(status));
