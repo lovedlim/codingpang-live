@@ -1,8 +1,8 @@
 {
- "asOf": "2026-10-27 01:20",
+ "asOf": "2026-10-27 01:30",
  "round": 13,
  "intervalMin": 10,
- "totals": {"venues":83,"closed":43,"seats":5699,"applied":4381,"remaining":1318},
+ "totals": {"venues":83,"closed":43,"seats":5699,"applied":4382,"remaining":1317},
  "venues": [
   {"id":51328,"name":"서일대학교 배양관","region":"seoul","seats":640,"applied":144,"remaining":496,"closed":false,"lat":37.58566205062344,"lng":127.09707403295494},
   {"id":51350,"name":"비젼직업전문학교","region":"daejeon","seats":69,"applied":45,"remaining":24,"closed":false,"lat":36.3292880842151,"lng":127.423960149879},
@@ -54,7 +54,7 @@
   {"id":51922,"name":"덕수컴퓨터회계학원","region":"seoul","seats":52,"applied":52,"remaining":0,"closed":true,"lat":37.5770680681003,"lng":127.057496456523},
   {"id":51927,"name":"경기상업고등학교","region":"seoul","seats":95,"applied":95,"remaining":0,"closed":true,"lat":37.58874346841538,"lng":126.96983719227075},
   {"id":51931,"name":"우리컴퓨터아카데미학원 부천지점","region":"gyeonggi","seats":41,"applied":35,"remaining":6,"closed":false,"lat":37.4856103297188,"lng":126.786291909989},
-  {"id":51936,"name":"KPC자격 부산동부지역센터","region":"busan","seats":34,"applied":17,"remaining":17,"closed":false,"lat":35.1856356500694,"lng":129.124230333709},
+  {"id":51936,"name":"KPC자격 부산동부지역센터","region":"busan","seats":34,"applied":18,"remaining":16,"closed":false,"lat":35.1856356500694,"lng":129.124230333709},
   {"id":51997,"name":"신촌평생교육원","region":"seoul","seats":62,"applied":62,"remaining":0,"closed":true,"lat":37.5561685325554,"lng":126.939018667005},
   {"id":52000,"name":"신일비즈니스고등학교","region":"gyeonggi","seats":90,"applied":90,"remaining":0,"closed":true,"lat":37.682855203799,"lng":126.762267820731},
   {"id":52004,"name":"OPIc 병점센터","region":"gyeonggi","seats":50,"applied":50,"remaining":0,"closed":true,"lat":37.2070119829617,"lng":127.034286103805},
