@@ -1,10 +1,10 @@
 {
- "asOf": "2026-10-27 20:20",
+ "asOf": "2026-10-27 20:30",
  "round": 13,
  "intervalMin": 10,
- "totals": {"venues":83,"closed":52,"seats":5684,"applied":4809,"remaining":875},
+ "totals": {"venues":83,"closed":52,"seats":5684,"applied":4812,"remaining":872},
  "venues": [
-  {"id":51328,"name":"서일대학교 배양관","region":"seoul","seats":640,"applied":265,"remaining":375,"closed":false,"lat":37.58566205062344,"lng":127.09707403295494},
+  {"id":51328,"name":"서일대학교 배양관","region":"seoul","seats":640,"applied":267,"remaining":373,"closed":false,"lat":37.58566205062344,"lng":127.09707403295494},
   {"id":51350,"name":"비젼직업전문학교","region":"daejeon","seats":69,"applied":69,"remaining":0,"closed":true,"lat":36.3292880842151,"lng":127.423960149879},
   {"id":51351,"name":"광주여자상업고등학교","region":"gwangju","seats":55,"applied":48,"remaining":7,"closed":false,"lat":35.1153621264237,"lng":126.893451593707},
   {"id":51358,"name":"새동아직업전문학교","region":"busan","seats":60,"applied":60,"remaining":0,"closed":true,"lat":35.105081462693974,"lng":128.96556342868288},
@@ -22,7 +22,7 @@
   {"id":51738,"name":"다산직업전문학교","region":"incheon","seats":107,"applied":74,"remaining":33,"closed":false,"lat":37.4636607705384,"lng":126.681732679136},
   {"id":51741,"name":"그린컴퓨터아트학원 대구캠퍼스","region":"daegu","seats":106,"applied":106,"remaining":0,"closed":true,"lat":35.8683261440927,"lng":128.593973022676},
   {"id":51742,"name":"그린컴퓨터아카데미 부산서면점","region":"busan","seats":78,"applied":78,"remaining":0,"closed":true,"lat":35.1541849760259,"lng":129.059493066745},
-  {"id":51744,"name":"그린컴퓨터아트학원 광주첨단","region":"gwangju","seats":26,"applied":21,"remaining":5,"closed":false,"lat":35.2173061952559,"lng":126.843789652474},
+  {"id":51744,"name":"그린컴퓨터아트학원 광주첨단","region":"gwangju","seats":26,"applied":22,"remaining":4,"closed":false,"lat":35.2173061952559,"lng":126.843789652474},
   {"id":51747,"name":"서울방송고등학교","region":"seoul","seats":63,"applied":63,"remaining":0,"closed":true,"lat":37.5477744781642,"lng":127.011037345163},
   {"id":51749,"name":"글로벌산업기술교육원","region":"seoul","seats":51,"applied":51,"remaining":0,"closed":true,"lat":37.4711354401665,"lng":126.898579669321},
   {"id":51824,"name":"울산다파컴퓨터디자인학원","region":"ulsan","seats":45,"applied":45,"remaining":0,"closed":true,"lat":35.5385156176478,"lng":129.335739011387},
