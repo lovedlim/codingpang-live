@@ -1,8 +1,8 @@
 {
- "asOf": "2026-10-27 14:40",
+ "asOf": "2026-10-27 14:50",
  "round": 13,
  "intervalMin": 10,
- "totals": {"venues":83,"closed":47,"seats":5701,"applied":4664,"remaining":1037},
+ "totals": {"venues":83,"closed":47,"seats":5701,"applied":4665,"remaining":1036},
  "venues": [
   {"id":51328,"name":"서일대학교 배양관","region":"seoul","seats":640,"applied":219,"remaining":421,"closed":false,"lat":37.58566205062344,"lng":127.09707403295494},
   {"id":51350,"name":"비젼직업전문학교","region":"daejeon","seats":69,"applied":61,"remaining":8,"closed":false,"lat":36.3292880842151,"lng":127.423960149879},
@@ -36,7 +36,7 @@
   {"id":51838,"name":"근명고등학교","region":"gyeonggi","seats":52,"applied":42,"remaining":10,"closed":false,"lat":37.39279641057256,"lng":126.92035162597227},
   {"id":51839,"name":"KPC자격 경기남부지역센터","region":"gyeonggi","seats":50,"applied":50,"remaining":0,"closed":true,"lat":37.2466600655629,"lng":127.056410081726},
   {"id":51840,"name":"수원직업전문학교","region":"gyeonggi","seats":54,"applied":54,"remaining":0,"closed":true,"lat":37.266050727758,"lng":127.03259369744},
-  {"id":51842,"name":"부천정보산업고등학교","region":"gyeonggi","seats":72,"applied":63,"remaining":9,"closed":false,"lat":37.496866961948825,"lng":126.74896304793114},
+  {"id":51842,"name":"부천정보산업고등학교","region":"gyeonggi","seats":72,"applied":64,"remaining":8,"closed":false,"lat":37.496866961948825,"lng":126.74896304793114},
   {"id":51843,"name":"서울문화고등학교","region":"seoul","seats":94,"applied":94,"remaining":0,"closed":true,"lat":37.66406921313216,"lng":127.04762465583089},
   {"id":51844,"name":"서울동부자격검정센터","region":"seoul","seats":52,"applied":52,"remaining":0,"closed":true,"lat":37.6146708296243,"lng":127.077122619657},
   {"id":51848,"name":"건국대학교 상허연구관","region":"seoul","seats":54,"applied":54,"remaining":0,"closed":true,"lat":37.54432217925045,"lng":127.075384880661},
