@@ -1,8 +1,8 @@
 {
- "asOf": "2026-10-28 10:20",
+ "asOf": "2026-10-28 10:30",
  "round": 13,
  "intervalMin": 10,
- "totals": {"venues":83,"closed":57,"seats":5684,"applied":4940,"remaining":744},
+ "totals": {"venues":83,"closed":58,"seats":5684,"applied":4941,"remaining":743},
  "venues": [
   {"id":51328,"name":"서일대학교 배양관","region":"seoul","seats":640,"applied":304,"remaining":336,"closed":false,"lat":37.58566205062344,"lng":127.09707403295494},
   {"id":51350,"name":"비젼직업전문학교","region":"daejeon","seats":69,"applied":69,"remaining":0,"closed":true,"lat":36.3292880842151,"lng":127.423960149879},
@@ -41,7 +41,7 @@
   {"id":51844,"name":"서울동부자격검정센터","region":"seoul","seats":52,"applied":52,"remaining":0,"closed":true,"lat":37.6146708296243,"lng":127.077122619657},
   {"id":51848,"name":"건국대학교 상허연구관","region":"seoul","seats":54,"applied":54,"remaining":0,"closed":true,"lat":37.54432217925045,"lng":127.075384880661},
   {"id":51849,"name":"건국대학교 새천년기념관","region":"seoul","seats":63,"applied":63,"remaining":0,"closed":true,"lat":37.543636098758974,"lng":127.07742664617437},
-  {"id":51852,"name":"동서울대학교 3호관","region":"gyeonggi","seats":78,"applied":77,"remaining":1,"closed":false,"lat":37.46074710549747,"lng":127.12990590144567},
+  {"id":51852,"name":"동서울대학교 3호관","region":"gyeonggi","seats":78,"applied":78,"remaining":0,"closed":true,"lat":37.46074710549747,"lng":127.12990590144567},
   {"id":51859,"name":"서울영상고등학교","region":"seoul","seats":90,"applied":90,"remaining":0,"closed":true,"lat":37.52331488345271,"lng":126.85990627925841},
   {"id":51861,"name":"문곡고등학교","region":"incheon","seats":60,"applied":43,"remaining":17,"closed":false,"lat":37.58840235990521,"lng":126.66971696705836},
   {"id":51863,"name":"그린컴퓨터아트학원 종로캠퍼스","region":"seoul","seats":60,"applied":60,"remaining":0,"closed":true,"lat":37.5697050231621,"lng":126.99002424417},
