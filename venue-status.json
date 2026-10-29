@@ -1,8 +1,8 @@
 {
- "asOf": "2026-10-29 20:40",
+ "asOf": "2026-10-29 20:50",
  "round": 13,
  "intervalMin": 10,
- "totals": {"venues":85,"closed":67,"seats":5803,"applied":5280,"remaining":523},
+ "totals": {"venues":85,"closed":67,"seats":5803,"applied":5282,"remaining":521},
  "venues": [
   {"id":51328,"name":"서일대학교 배양관","region":"seoul","seats":640,"applied":439,"remaining":201,"closed":false,"lat":37.58566205062344,"lng":127.09707403295494},
   {"id":51350,"name":"비젼직업전문학교","region":"daejeon","seats":69,"applied":69,"remaining":0,"closed":true,"lat":36.3292880842151,"lng":127.423960149879},
@@ -64,7 +64,7 @@
   {"id":52009,"name":"진영중학교 인성관","region":"gyeonggi","seats":45,"applied":30,"remaining":15,"closed":false,"lat":37.47279357349619,"lng":126.79142824706082},
   {"id":52012,"name":"부산기장평생교육원","region":"busan","seats":66,"applied":27,"remaining":39,"closed":false,"lat":35.2417019534916,"lng":129.213747698425},
   {"id":52017,"name":"광주컴퓨터기술학원","region":"gwangju","seats":20,"applied":20,"remaining":0,"closed":true,"lat":35.175246486365,"lng":126.810643210629},
-  {"id":52018,"name":"대성여자상업고등학교","region":"daejeon","seats":48,"applied":10,"remaining":38,"closed":false,"lat":36.645376586986,"lng":127.492282507756},
+  {"id":52018,"name":"대성여자상업고등학교","region":"daejeon","seats":48,"applied":11,"remaining":37,"closed":false,"lat":36.645376586986,"lng":127.492282507756},
   {"id":52019,"name":"SBS아카데미AIX학원 울산지점","region":"ulsan","seats":59,"applied":35,"remaining":24,"closed":false,"lat":35.5531324890167,"lng":129.320551982419},
   {"id":52048,"name":"서서울생활과학고등학교","region":"seoul","seats":22,"applied":22,"remaining":0,"closed":true,"lat":37.5038291911751,"lng":126.828259957002},
   {"id":52051,"name":"서울정보처리컴퓨터학원","region":"gyeonggi","seats":52,"applied":52,"remaining":0,"closed":true,"lat":37.3594605745275,"lng":126.930209883168},
@@ -88,6 +88,6 @@
   {"id":52240,"name":"윤성컴퓨터디자인 DX아카데미","region":"daegu","seats":84,"applied":84,"remaining":0,"closed":true,"lat":35.8706795257615,"lng":128.594356520484},
   {"id":52241,"name":"구미대학교 창의관","region":"daegu","seats":36,"applied":36,"remaining":0,"closed":true,"lat":36.1521662282152,"lng":128.289088279966},
   {"id":52242,"name":"NEW국제직업전문학교(신세계점)","region":"gwangju","seats":46,"applied":46,"remaining":0,"closed":true,"lat":35.1565387043273,"lng":126.882703642915},
-  {"id":52243,"name":"제주한라대학교[신관]","region":"jeju","seats":54,"applied":33,"remaining":21,"closed":false,"lat":33.4767897566467,"lng":126.474151903132}
+  {"id":52243,"name":"제주한라대학교[신관]","region":"jeju","seats":54,"applied":34,"remaining":20,"closed":false,"lat":33.4767897566467,"lng":126.474151903132}
  ]
 }
