@@ -1,8 +1,8 @@
 {
- "asOf": "2026-10-30 03:40",
+ "asOf": "2026-10-30 03:50",
  "round": 13,
  "intervalMin": 10,
- "totals": {"venues":85,"closed":67,"seats":5803,"applied":5325,"remaining":478},
+ "totals": {"venues":85,"closed":68,"seats":5803,"applied":5326,"remaining":477},
  "venues": [
   {"id":51328,"name":"서일대학교 배양관","region":"seoul","seats":640,"applied":452,"remaining":188,"closed":false,"lat":37.58566205062344,"lng":127.09707403295494},
   {"id":51350,"name":"비젼직업전문학교","region":"daejeon","seats":69,"applied":69,"remaining":0,"closed":true,"lat":36.3292880842151,"lng":127.423960149879},
@@ -59,7 +59,7 @@
   {"id":51997,"name":"신촌평생교육원","region":"seoul","seats":62,"applied":62,"remaining":0,"closed":true,"lat":37.5561685325554,"lng":126.939018667005},
   {"id":52000,"name":"신일비즈니스고등학교","region":"gyeonggi","seats":90,"applied":90,"remaining":0,"closed":true,"lat":37.682855203799,"lng":126.762267820731},
   {"id":52004,"name":"OPIc 병점센터","region":"gyeonggi","seats":50,"applied":50,"remaining":0,"closed":true,"lat":37.2070119829617,"lng":127.034286103805},
-  {"id":52005,"name":"수원공업고등학교","region":"gyeonggi","seats":59,"applied":58,"remaining":1,"closed":false,"lat":37.2742667467272,"lng":127.024521555989},
+  {"id":52005,"name":"수원공업고등학교","region":"gyeonggi","seats":59,"applied":59,"remaining":0,"closed":true,"lat":37.2742667467272,"lng":127.024521555989},
   {"id":52008,"name":"안양이젠컴퓨터학원","region":"gyeonggi","seats":49,"applied":49,"remaining":0,"closed":true,"lat":37.4018612563054,"lng":126.919329621126},
   {"id":52009,"name":"진영중학교 인성관","region":"gyeonggi","seats":45,"applied":32,"remaining":13,"closed":false,"lat":37.47279357349619,"lng":126.79142824706082},
   {"id":52012,"name":"부산기장평생교육원","region":"busan","seats":66,"applied":28,"remaining":38,"closed":false,"lat":35.2417019534916,"lng":129.213747698425},
