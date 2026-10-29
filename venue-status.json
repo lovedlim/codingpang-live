@@ -1,8 +1,8 @@
 {
- "asOf": "2026-10-29 16:20",
+ "asOf": "2026-10-29 16:30",
  "round": 13,
  "intervalMin": 10,
- "totals": {"venues":85,"closed":66,"seats":5803,"applied":5240,"remaining":563},
+ "totals": {"venues":85,"closed":66,"seats":5803,"applied":5241,"remaining":562},
  "venues": [
   {"id":51328,"name":"서일대학교 배양관","region":"seoul","seats":640,"applied":419,"remaining":221,"closed":false,"lat":37.58566205062344,"lng":127.09707403295494},
   {"id":51350,"name":"비젼직업전문학교","region":"daejeon","seats":69,"applied":69,"remaining":0,"closed":true,"lat":36.3292880842151,"lng":127.423960149879},
@@ -62,7 +62,7 @@
   {"id":52005,"name":"수원공업고등학교","region":"gyeonggi","seats":59,"applied":59,"remaining":0,"closed":true,"lat":37.2742667467272,"lng":127.024521555989},
   {"id":52008,"name":"안양이젠컴퓨터학원","region":"gyeonggi","seats":49,"applied":49,"remaining":0,"closed":true,"lat":37.4018612563054,"lng":126.919329621126},
   {"id":52009,"name":"진영중학교 인성관","region":"gyeonggi","seats":45,"applied":29,"remaining":16,"closed":false,"lat":37.47279357349619,"lng":126.79142824706082},
-  {"id":52012,"name":"부산기장평생교육원","region":"busan","seats":66,"applied":21,"remaining":45,"closed":false,"lat":35.2417019534916,"lng":129.213747698425},
+  {"id":52012,"name":"부산기장평생교육원","region":"busan","seats":66,"applied":22,"remaining":44,"closed":false,"lat":35.2417019534916,"lng":129.213747698425},
   {"id":52017,"name":"광주컴퓨터기술학원","region":"gwangju","seats":20,"applied":20,"remaining":0,"closed":true,"lat":35.175246486365,"lng":126.810643210629},
   {"id":52018,"name":"대성여자상업고등학교","region":"daejeon","seats":48,"applied":9,"remaining":39,"closed":false,"lat":36.645376586986,"lng":127.492282507756},
   {"id":52019,"name":"SBS아카데미AIX학원 울산지점","region":"ulsan","seats":59,"applied":35,"remaining":24,"closed":false,"lat":35.5531324890167,"lng":129.320551982419},
