@@ -1,8 +1,8 @@
 {
- "asOf": "2026-10-30 07:40",
+ "asOf": "2026-10-30 07:50",
  "round": 13,
  "intervalMin": 10,
- "totals": {"venues":85,"closed":67,"seats":5803,"applied":5330,"remaining":473},
+ "totals": {"venues":85,"closed":68,"seats":5803,"applied":5331,"remaining":472},
  "venues": [
   {"id":51328,"name":"서일대학교 배양관","region":"seoul","seats":640,"applied":453,"remaining":187,"closed":false,"lat":37.58566205062344,"lng":127.09707403295494},
   {"id":51350,"name":"비젼직업전문학교","region":"daejeon","seats":69,"applied":69,"remaining":0,"closed":true,"lat":36.3292880842151,"lng":127.423960149879},
@@ -72,7 +72,7 @@
   {"id":52055,"name":"경민IT고등학교 미래관","region":"gyeonggi","seats":71,"applied":53,"remaining":18,"closed":false,"lat":37.746803795850994,"lng":127.02440613290786},
   {"id":52057,"name":"그린컴퓨터아카데미 광주(서구)","region":"gwangju","seats":60,"applied":60,"remaining":0,"closed":true,"lat":35.1508407462781,"lng":126.848916978296},
   {"id":52137,"name":"고려IT직업전문학교","region":"gyeonggi","seats":60,"applied":60,"remaining":0,"closed":true,"lat":37.2785416604671,"lng":127.017271510729},
-  {"id":52138,"name":"대원캐드캠디자인직업전문학교","region":"gyeonggi","seats":60,"applied":59,"remaining":1,"closed":false,"lat":37.2619377486618,"lng":127.003872593711},
+  {"id":52138,"name":"대원캐드캠디자인직업전문학교","region":"gyeonggi","seats":60,"applied":60,"remaining":0,"closed":true,"lat":37.2619377486618,"lng":127.003872593711},
   {"id":52139,"name":"안양문화고등학교","region":"gyeonggi","seats":50,"applied":50,"remaining":0,"closed":true,"lat":37.3957610400926,"lng":126.9086344228},
   {"id":52140,"name":"그린컴퓨터아트학원 대전둔산","region":"daejeon","seats":83,"applied":83,"remaining":0,"closed":true,"lat":36.3492673430944,"lng":127.377688280874},
   {"id":52230,"name":"MBC아카데미컴퓨터교육센터 노원캠퍼스","region":"seoul","seats":81,"applied":81,"remaining":0,"closed":true,"lat":37.6567452176387,"lng":127.06351419165},
