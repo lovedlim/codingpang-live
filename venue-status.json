@@ -1,8 +1,8 @@
 {
- "asOf": "2026-10-30 08:20",
+ "asOf": "2026-10-30 08:30",
  "round": 13,
  "intervalMin": 10,
- "totals": {"venues":85,"closed":68,"seats":5803,"applied":5335,"remaining":468},
+ "totals": {"venues":85,"closed":68,"seats":5803,"applied":5337,"remaining":466},
  "venues": [
   {"id":51328,"name":"서일대학교 배양관","region":"seoul","seats":640,"applied":455,"remaining":185,"closed":false,"lat":37.58566205062344,"lng":127.09707403295494},
   {"id":51350,"name":"비젼직업전문학교","region":"daejeon","seats":69,"applied":69,"remaining":0,"closed":true,"lat":36.3292880842151,"lng":127.423960149879},
@@ -37,7 +37,7 @@
   {"id":51838,"name":"근명고등학교","region":"gyeonggi","seats":52,"applied":52,"remaining":0,"closed":true,"lat":37.39279641057256,"lng":126.92035162597227},
   {"id":51839,"name":"KPC자격 경기남부지역센터","region":"gyeonggi","seats":50,"applied":50,"remaining":0,"closed":true,"lat":37.2466600655629,"lng":127.056410081726},
   {"id":51840,"name":"수원직업전문학교","region":"gyeonggi","seats":54,"applied":54,"remaining":0,"closed":true,"lat":37.266050727758,"lng":127.03259369744},
-  {"id":51842,"name":"부천정보산업고등학교","region":"gyeonggi","seats":72,"applied":72,"remaining":0,"closed":true,"lat":37.496866961948825,"lng":126.74896304793114},
+  {"id":51842,"name":"부천정보산업고등학교","region":"gyeonggi","seats":72,"applied":71,"remaining":1,"closed":false,"lat":37.496866961948825,"lng":126.74896304793114},
   {"id":51843,"name":"서울문화고등학교","region":"seoul","seats":94,"applied":94,"remaining":0,"closed":true,"lat":37.66406921313216,"lng":127.04762465583089},
   {"id":51844,"name":"서울동부자격검정센터","region":"seoul","seats":52,"applied":52,"remaining":0,"closed":true,"lat":37.6146708296243,"lng":127.077122619657},
   {"id":51848,"name":"건국대학교 상허연구관","region":"seoul","seats":54,"applied":54,"remaining":0,"closed":true,"lat":37.54432217925045,"lng":127.075384880661},
@@ -65,7 +65,7 @@
   {"id":52012,"name":"부산기장평생교육원","region":"busan","seats":66,"applied":29,"remaining":37,"closed":false,"lat":35.2417019534916,"lng":129.213747698425},
   {"id":52017,"name":"광주컴퓨터기술학원","region":"gwangju","seats":20,"applied":20,"remaining":0,"closed":true,"lat":35.175246486365,"lng":126.810643210629},
   {"id":52018,"name":"대성여자상업고등학교","region":"daejeon","seats":48,"applied":14,"remaining":34,"closed":false,"lat":36.645376586986,"lng":127.492282507756},
-  {"id":52019,"name":"SBS아카데미AIX학원 울산지점","region":"ulsan","seats":59,"applied":40,"remaining":19,"closed":false,"lat":35.5531324890167,"lng":129.320551982419},
+  {"id":52019,"name":"SBS아카데미AIX학원 울산지점","region":"ulsan","seats":59,"applied":41,"remaining":18,"closed":false,"lat":35.5531324890167,"lng":129.320551982419},
   {"id":52048,"name":"서서울생활과학고등학교","region":"seoul","seats":22,"applied":22,"remaining":0,"closed":true,"lat":37.5038291911751,"lng":126.828259957002},
   {"id":52051,"name":"서울정보처리컴퓨터학원","region":"gyeonggi","seats":52,"applied":52,"remaining":0,"closed":true,"lat":37.3594605745275,"lng":126.930209883168},
   {"id":52052,"name":"경일고등학교","region":"gyeonggi","seats":24,"applied":24,"remaining":0,"closed":true,"lat":37.3479491508622,"lng":126.804970582527},
@@ -79,7 +79,7 @@
   {"id":52231,"name":"구리하이미디어컴퓨터학원","region":"gyeonggi","seats":72,"applied":72,"remaining":0,"closed":true,"lat":37.6050644184814,"lng":127.140513929877},
   {"id":52232,"name":"성남 그린컴퓨터아카데미","region":"gyeonggi","seats":50,"applied":50,"remaining":0,"closed":true,"lat":37.3496946430081,"lng":127.106994848851},
   {"id":52233,"name":"MBC아카데미 컴퓨터교육센터 수원인계점","region":"gyeonggi","seats":51,"applied":51,"remaining":0,"closed":true,"lat":37.2604623942891,"lng":127.031855722775},
-  {"id":52234,"name":"안산이젠컴퓨터아카데미","region":"gyeonggi","seats":47,"applied":23,"remaining":24,"closed":false,"lat":37.308447129768,"lng":126.850952825644},
+  {"id":52234,"name":"안산이젠컴퓨터아카데미","region":"gyeonggi","seats":47,"applied":24,"remaining":23,"closed":false,"lat":37.308447129768,"lng":126.850952825644},
   {"id":52235,"name":"대전과학기술대학교 동방관","region":"daejeon","seats":122,"applied":115,"remaining":7,"closed":false,"lat":36.3017868630869,"lng":127.375766717311},
   {"id":52236,"name":"우송대학교 서캠퍼스 미디어융합관(W17)","region":"daejeon","seats":81,"applied":81,"remaining":0,"closed":true,"lat":36.3356935488064,"lng":127.44573302632},
   {"id":52237,"name":"동래여성인력개발센터","region":"busan","seats":20,"applied":20,"remaining":0,"closed":true,"lat":35.2056908602158,"lng":129.07445617033},
@@ -87,7 +87,7 @@
   {"id":52239,"name":"그린컴퓨터디자인학원","region":"daegu","seats":47,"applied":47,"remaining":0,"closed":true,"lat":35.8705941877935,"lng":128.59481804297},
   {"id":52240,"name":"윤성컴퓨터디자인 DX아카데미","region":"daegu","seats":84,"applied":84,"remaining":0,"closed":true,"lat":35.8706795257615,"lng":128.594356520484},
   {"id":52241,"name":"구미대학교 창의관","region":"daegu","seats":36,"applied":36,"remaining":0,"closed":true,"lat":36.1521662282152,"lng":128.289088279966},
-  {"id":52242,"name":"NEW국제직업전문학교(신세계점)","region":"gwangju","seats":46,"applied":45,"remaining":1,"closed":false,"lat":35.1565387043273,"lng":126.882703642915},
+  {"id":52242,"name":"NEW국제직업전문학교(신세계점)","region":"gwangju","seats":46,"applied":46,"remaining":0,"closed":true,"lat":35.1565387043273,"lng":126.882703642915},
   {"id":52243,"name":"제주한라대학교[신관]","region":"jeju","seats":54,"applied":34,"remaining":20,"closed":false,"lat":33.4767897566467,"lng":126.474151903132}
  ]
 }
