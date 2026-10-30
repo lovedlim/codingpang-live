@@ -1,10 +1,10 @@
 {
- "asOf": "2026-10-30 16:20",
+ "asOf": "2026-10-30 16:30",
  "round": 13,
  "intervalMin": 10,
- "totals": {"venues":85,"closed":66,"seats":5803,"applied":5425,"remaining":378},
+ "totals": {"venues":85,"closed":66,"seats":5803,"applied":5430,"remaining":373},
  "venues": [
-  {"id":51328,"name":"서일대학교 배양관","region":"seoul","seats":640,"applied":492,"remaining":148,"closed":false,"lat":37.58566205062344,"lng":127.09707403295494},
+  {"id":51328,"name":"서일대학교 배양관","region":"seoul","seats":640,"applied":495,"remaining":145,"closed":false,"lat":37.58566205062344,"lng":127.09707403295494},
   {"id":51350,"name":"비젼직업전문학교","region":"daejeon","seats":69,"applied":69,"remaining":0,"closed":true,"lat":36.3292880842151,"lng":127.423960149879},
   {"id":51351,"name":"광주여자상업고등학교","region":"gwangju","seats":55,"applied":55,"remaining":0,"closed":true,"lat":35.1153621264237,"lng":126.893451593707},
   {"id":51358,"name":"새동아직업전문학교","region":"busan","seats":60,"applied":60,"remaining":0,"closed":true,"lat":35.105081462693974,"lng":128.96556342868288},
@@ -61,7 +61,7 @@
   {"id":52004,"name":"OPIc 병점센터","region":"gyeonggi","seats":50,"applied":50,"remaining":0,"closed":true,"lat":37.2070119829617,"lng":127.034286103805},
   {"id":52005,"name":"수원공업고등학교","region":"gyeonggi","seats":59,"applied":59,"remaining":0,"closed":true,"lat":37.2742667467272,"lng":127.024521555989},
   {"id":52008,"name":"안양이젠컴퓨터학원","region":"gyeonggi","seats":49,"applied":49,"remaining":0,"closed":true,"lat":37.4018612563054,"lng":126.919329621126},
-  {"id":52009,"name":"진영중학교 인성관","region":"gyeonggi","seats":45,"applied":32,"remaining":13,"closed":false,"lat":37.47279357349619,"lng":126.79142824706082},
+  {"id":52009,"name":"진영중학교 인성관","region":"gyeonggi","seats":45,"applied":34,"remaining":11,"closed":false,"lat":37.47279357349619,"lng":126.79142824706082},
   {"id":52012,"name":"부산기장평생교육원","region":"busan","seats":66,"applied":31,"remaining":35,"closed":false,"lat":35.2417019534916,"lng":129.213747698425},
   {"id":52017,"name":"광주컴퓨터기술학원","region":"gwangju","seats":20,"applied":20,"remaining":0,"closed":true,"lat":35.175246486365,"lng":126.810643210629},
   {"id":52018,"name":"대성여자상업고등학교","region":"daejeon","seats":48,"applied":20,"remaining":28,"closed":false,"lat":36.645376586986,"lng":127.492282507756},
